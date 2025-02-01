@@ -1,11 +1,22 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import IntroBanner from "./components/IntroBanner";
+import HeroElement from "./components/HeroElement";
+import ServiceJobs from "./components/ServiceJobs";
+import NewsletterBanner from "./components/NewsletterBanner";
+import Footer from "./components/Footer";
+import ContactForm from "./components/ContactForm";
 
 const App = () => {
   return (
     <div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro saepe
-      ratione maiores commodi voluptas provident ipsam sint, eos neque, culpa
-      totam ipsum natus illo iure velit numquam vel praesentium explicabo.
+      <Navbar />
+      <IntroBanner />
+      <HeroElement />
+      <ServiceJobs />
+      <ContactForm />
+      <NewsletterBanner />
+      <Footer />
     </div>
   );
 };

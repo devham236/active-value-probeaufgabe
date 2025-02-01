@@ -1,7 +1,7 @@
 import React from "react";
 
 const IntroBanner = () => {
-  return <div></div>;
+  return <div>IntroBanner</div>;
 };
 
 export default IntroBanner;
