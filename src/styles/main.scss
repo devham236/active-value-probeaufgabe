@@ -7,6 +7,7 @@
     padding: 0;
 }
 
+// Navbar Styles
 .navbar{
     padding: 1rem;
     position: relative;
@@ -75,12 +76,29 @@
     }
 }
 
+// Intro Banner Styles
+.intro-banner{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .intro-banner-container{
+        width: 100%;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
 
 @media screen and (max-width: 1280px){
     
 }
 
 @media screen and (max-width: 320px){
+    // Navbar Styles
     .navbar{
         .menu-sidebar{
             position: absolute;
@@ -95,6 +113,14 @@
             .menu-items{
                 text-align: center;
             }
+        }
+    }
+
+    // Intro Banner Styles
+    .intro-banner{
+        .intro-banner-container{
+            padding: 0 1rem;
+            height: 300px;
         }
     }
 }
