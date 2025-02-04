@@ -1,5 +1,3 @@
-import React from "react";
-import linkedIn from "../assets/icons/linkedin.png";
 import { socialIconsArr } from "../utils/socialIcons";
 
 const HeroElement = () => {
