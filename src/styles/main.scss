@@ -174,11 +174,52 @@
             border: 1px solid $text-grey-color;
             color: $text-grey-color;
             cursor: pointer;
+            background-color: transparent;
         }
     }
 
     .container:not(:last-child){
         margin-right: 4rem;
+    }
+}
+
+// Newsletter Banner Styles
+.newsletter-banner{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, $lighter-green, $darker-green);
+    padding: 2rem 4rem;
+    text-align: center;
+    color: #fff;
+
+    .above-title{
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .info-text{
+        font-family: 'Barlow', sans-serif;
+        letter-spacing: 0.5px;
+        margin-bottom: 1.5rem;
+        
+    }
+
+    button{
+        width: 180px;
+        height: 50px;
+        border: 1px solid $text-grey-color;
+        cursor: pointer;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+
     }
 }
 
@@ -218,6 +259,10 @@
     .hero-section{
         width: 100%;
         padding: 2rem 1.5rem;
+
+        .linkedin{
+            display: none;
+        }
     }
 
     // Service Jobs Styles

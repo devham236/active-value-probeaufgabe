@@ -9,7 +9,7 @@ import ContactForm from "./components/ContactForm";
 
 const App = () => {
   return (
-    <div>
+    <main>
       <Navbar />
       <IntroBanner />
       <HeroElement />
@@ -17,7 +17,7 @@ const App = () => {
       {/* <ContactForm /> */}
       <NewsletterBanner />
       <Footer />
-    </div>
+    </main>
   );
 };
 

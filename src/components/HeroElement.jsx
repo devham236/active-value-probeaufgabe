@@ -28,7 +28,7 @@ const HeroElement = () => {
         </div>
         <div className="social-icons">
           {socialIconsArr.map((icon) => (
-            <span key={icon.id}>
+            <span key={icon.id} className={icon.name}>
               <img src={icon.src} alt="" />
             </span>
           ))}
