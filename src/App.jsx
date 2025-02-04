@@ -14,8 +14,8 @@ const App = () => {
       <IntroBanner />
       <HeroElement />
       <ServiceJobs />
-      <ContactForm />
       <NewsletterBanner />
+      <ContactForm />
       <Footer />
     </main>
   );
