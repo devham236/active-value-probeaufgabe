@@ -110,6 +110,8 @@
             font-family: 'Poppins', sans-serif;
             text-transform: uppercase;
             color: $text-grey-color;
+            letter-spacing: 1px;
+            font-weight: 600;
         }
 
         .info-text{
@@ -153,6 +155,8 @@
             font-family: 'Poppins', sans-serif;
             text-transform: uppercase;
             color: $text-grey-color;
+            letter-spacing: 1px;
+            font-weight: 600;
         }
 
         .title{
@@ -184,6 +188,76 @@
     }
 }
 
+// Contact Form Styles
+.contact-form{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    text-align: center;
+    
+
+    .above-title{
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        color: $text-grey-color;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+
+    .form .form-field:not(:last-child){
+        margin-bottom: 2rem;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+
+        .form-field{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            label{
+                margin-bottom: 0.3rem;
+            }
+
+            input{
+                width: 300px;
+                padding: 0.8rem;
+                border: 1px solid $text-grey-color;
+                color: $text-grey-color;
+            }
+
+            input::placeholder{
+                font-style: italic;
+                opacity: 0.5;
+            }
+
+            input:focus{
+                outline: 1px solid $darker-green;
+            }
+        }
+
+        button{
+            width: 300px;
+            height: 50px;
+            border: 1px solid $text-grey-color;
+            color: $text-grey-color;
+            cursor: pointer;
+            background-color: transparent;
+        }
+    }
+}
+
 // Newsletter Banner Styles
 .newsletter-banner{
     max-width: 1200px;
@@ -196,6 +270,8 @@
     .above-title{
         font-family: 'Poppins', sans-serif;
         text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
     }
 
     .title{
@@ -268,73 +344,6 @@
     }
 }
 
-// Form Styles
-.contact-form{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 4rem;
-    text-align: center;
-    
-
-    .above-title{
-        font-family: 'Poppins', sans-serif;
-        text-transform: uppercase;
-        color: $text-grey-color;
-    }
-
-    .title{
-        font-family: 'Poppins', sans-serif;
-        font-size: 2rem;
-        font-weight: 600;
-        margin-bottom: 2rem;
-    }
-
-    .form .form-field:not(:last-child){
-        margin-bottom: 2rem;
-    }
-
-    .form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-family: 'Poppins', sans-serif;
-
-        .form-field{
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-
-            label{
-                margin-bottom: 0.3rem;
-            }
-
-            input{
-                width: 300px;
-                padding: 0.8rem;
-                border: 1px solid $text-grey-color;
-                color: $text-grey-color;
-            }
-
-            input::placeholder{
-                font-style: italic;
-                opacity: 0.5;
-            }
-
-            input:focus{
-                outline: 1px solid $darker-green;
-            }
-        }
-
-        button{
-            width: 300px;
-            height: 50px;
-            border: 1px solid $text-grey-color;
-            color: $text-grey-color;
-            cursor: pointer;
-            background-color: transparent;
-        }
-    }
-}
 
 
 @media screen and (max-width: 1280px){
@@ -383,7 +392,7 @@
         flex-direction: column;
     }
 
-    // Footer
+    // Footer Styles
     .footer{
         .footer-container{
             display: flex;
