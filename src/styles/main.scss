@@ -50,6 +50,7 @@
 
     .menu-sidebar{
         position: absolute;
+        z-index: 100;
         top: 0;
         right: 0;
         width: 500px;
@@ -78,18 +79,56 @@
 
 // Intro Banner Styles
 .intro-banner{
+    position: relative;
     max-width: 1200px;
+    height: 350px;
     margin: 0 auto;
+    display: flex;
 
-    .intro-banner-container{
+    .slider-wrapper{
         width: 100%;
+        height: 100%;
+        position: relative;
 
-        img{
+        .slider-container{
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            flex: 1;
+            position: absolute;
+            overflow: hidden;
+            opacity: 0;
+            pointer-events: none;
+            transform: scale(0.8);
+            transition: 0.5s ease-in-out;
+
+    
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .slider-container-active{
+            opacity: 1;
+            transform: scale(1);
+            pointer-events: visible;
         }
     }
+
+    .pagination{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .pagi-dot{
+            font-size: 1rem;
+            cursor: pointer;
+            color: #fff;
+        }
+    }
+
 }
 
 // Hero Element Styles
