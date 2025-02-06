@@ -23,7 +23,7 @@ const ContactForm = () => {
             placeholder="maxmustermann@email.com"
           />
         </div>
-        <button>Senden</button>
+        <button className="button">Senden</button>
       </form>
     </section>
   );

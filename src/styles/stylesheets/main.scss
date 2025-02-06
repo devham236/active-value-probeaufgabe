@@ -20,5 +20,9 @@
 }
 
 .info-text{
-    @include infoText
+    @include infoTextStyles
+}
+
+.button{
+    @include buttonStyles
 }

@@ -12,7 +12,7 @@ const ServiceJobs = () => {
           At vero eos et accusam et justo duo dolores et ea rebum, at vero eos
           et accusam et justo duo dolores et ea rebumstet clita kasd gubergren.
         </p>
-        <button>Kontakt</button>
+        <button className="button">Kontakt</button>
       </div>
       <div className="jobs container">
         <p className="info-above-title">Jobs</p>
@@ -23,7 +23,7 @@ const ServiceJobs = () => {
           At vero eos et accusam et justo duo dolores et ea rebum, at vero eos
           et accusam et justo duo dolores et ea rebumstet clita kasd gubergren.
         </p>
-        <button>Jobangebote</button>
+        <button className="button">Jobangebote</button>
       </div>
     </section>
   );

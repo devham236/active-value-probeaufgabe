@@ -34,10 +34,23 @@ $darker-green: #5fbe30;
     margin-bottom: 1.5rem;
 }
 
-@mixin infoText{
+@mixin infoTextStyles{
     font-family: 'Barlow', sans-serif;
     color: $text-grey-color;
     margin-bottom: 2rem;
     letter-spacing: 0.5px;
+}
+
+@mixin buttonStyles{
+    display: inline-block;
+    background: transparent;
+    color: $text-grey-color;
+    border: 1px solid $text-grey-color;
+    cursor: pointer;
+    padding: 14px 30px;
+    margin: 0;
+    text-decoration: none;
+    border-radius: 0;
+    font-size: .9375rem;
 }
 

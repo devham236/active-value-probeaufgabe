@@ -8,7 +8,7 @@ const NewsletterBanner = () => {
       <p className="info-text nl-info-text">
         At vero eos et accusam et justo duo dolores et ea rebum.
       </p>
-      <button>Newsletter abonieren</button>
+      <button className="button">Newsletter abonieren</button>
     </section>
   );
 };
