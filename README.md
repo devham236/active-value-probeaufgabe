@@ -10,8 +10,16 @@ https://github.com/user-attachments/assets/d69d8c3f-8daf-422b-8e1e-e6b6b6af81b6
 https://github.com/devham236/active-value-probeaufgabe.git
 ```
 
-2. **Open project and start local live server**
+2. **Install packages**
+```bash
+npm install
+```
+
+```bash
+yarn install
+```
 
 ## Technologies Used
-- HTML
-- CSS
+- React
+- Javascript
+- Sass/SCSS
