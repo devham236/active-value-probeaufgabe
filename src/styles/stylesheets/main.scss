@@ -14,3 +14,7 @@
 .info-above-title{
     @include infoAboveTitleStyles
 }
+
+.title{
+    @include titleStyles
+}

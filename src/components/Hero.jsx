@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="section hero-section">
       <div className="hero-container">
         <p className="info-above-title">April 2019</p>
-        <h2 className="title">Shopware als starker Partner</h2>
+        <h2 className="title hr-title">Shopware als starker Partner</h2>
         <div className="info-text">
           <p>
             Wir haben eine Vielzahl von individuellen Webshops für ein diverses
