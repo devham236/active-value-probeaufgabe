@@ -1,5 +1,3 @@
-import instagram from "../assets/icons/instagram.png";
-import facebook from "../assets/icons/facebook.png";
 import "../styles/stylesheets/footer.scss";
 
 const Footer = () => {
@@ -18,10 +16,10 @@ const Footer = () => {
         </div>
         <div className="mobile-social-icons">
           <span className="instagram">
-            <img src={instagram} alt="" />
+            <img src={"/assets/icons/instagram.png"} alt="" />
           </span>
           <span className="facebook">
-            <img src={facebook} alt="" />
+            <img src={"/assets/icons/facebook.png"} alt="" />
           </span>
         </div>
         <div className="impressum-agb">

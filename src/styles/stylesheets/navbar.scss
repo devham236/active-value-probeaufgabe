@@ -6,16 +6,19 @@
     font-family: 'Poppins', sans-serif;
 
     .menu-icon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;    
+        display: block;
+        cursor: pointer;
+        color: $text-grey-color;
+        text-transform: uppercase;    
     }
 
     .menu-icon span{
-        font-size: 2rem;
-        opacity: 0.5;
-        transition: 0.3s ease;
+        display: block;
+        height: 2px;
+        width: 100%;
+        background: $text-grey-color;
+        margin-top: 3px;
+        transition: all .3s ease;
     }
 
     .menu-icon span:hover{
@@ -60,7 +63,7 @@
             margin-bottom: 2rem;
         }
 
-        .menu-icon{
+        .close-menu-icon{
             position: absolute;
             top: 1rem;
             right: 1rem;

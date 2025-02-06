@@ -1,20 +1,18 @@
-import shopwareImage from "../assets/images/shopware_banner.png";
-
 export const sliderImages = [
   {
     id: 1,
-    img: shopwareImage,
+    img: "/assets/images/shopware_banner.png",
   },
   {
     id: 2,
-    img: shopwareImage,
+    img: "/assets/images/shopware_banner.png",
   },
   {
     id: 3,
-    img: shopwareImage,
+    img: "/assets/images/shopware_banner.png",
   },
   {
     id: 4,
-    img: shopwareImage,
+    img: "/assets/images/shopware_banner.png",
   },
 ];

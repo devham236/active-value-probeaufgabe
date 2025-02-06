@@ -1,4 +1,3 @@
-import shopwareBanner from "../assets/images/shopware_banner.png";
 import { sliderImages } from "../utils/sliderImages";
 import useIntroBanner from "../hooks/useIntroBanner";
 import "../styles/stylesheets/introbanner.scss";
@@ -27,7 +26,10 @@ const IntroBanner = () => {
             onTouchMove={handleTouchMove}
             onTouchEnd={handleTouchEnd}
           >
-            <img src={shopwareBanner} alt="shopware banner" />
+            <img
+              src={"/assets/images/shopware_banner.png"}
+              alt="shopware banner"
+            />
           </div>
         ))}
       </div>
