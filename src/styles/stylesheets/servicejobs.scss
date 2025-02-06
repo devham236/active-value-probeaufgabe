@@ -1,0 +1,76 @@
+@import "../variables/globalVariables.scss";
+
+.service-jobs{
+    max-width: 1200px;
+    background-color: $grey-bg-color;
+    margin: 0 auto;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+
+    .container{
+        width: 50%;
+
+        .above-title{
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            color: $text-grey-color;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .title{
+            font-family: 'Poppins', sans-serif;
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .info-text{
+            font-family: 'Barlow', sans-serif;
+            color: $text-grey-color;
+            margin-bottom: 2.5rem;
+            
+        }
+
+        button{
+            width: 130px;
+            height: 50px;
+            border: 1px solid $text-grey-color;
+            color: $text-grey-color;
+            cursor: pointer;
+            background-color: transparent;
+        }
+    }
+
+    .container:not(:last-child){
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 1279px) {
+    
+}
+
+@media screen and (max-width: 766px) {
+    .service-jobs{
+        padding: 2rem;
+        flex-direction: column;
+
+        .container{
+            width: 100%;
+        }
+
+        .container:not(:last-child){
+            margin-right: 0;
+            margin-bottom: 3rem;
+        }
+    }
+}

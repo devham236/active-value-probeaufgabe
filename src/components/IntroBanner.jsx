@@ -1,7 +1,7 @@
-import React from "react";
 import shopwareBanner from "../assets/images/shopware_banner.png";
 import { sliderImages } from "../utils/sliderImages";
 import useIntroBanner from "../hooks/useIntroBanner";
+import "../styles/stylesheets/introbanner.scss";
 
 const IntroBanner = () => {
   const {

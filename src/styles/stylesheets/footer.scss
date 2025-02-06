@@ -1,0 +1,96 @@
+@import "../variables/globalVariables.scss";
+
+.footer{
+    width: 100%;
+    padding: 2rem 4rem;
+    border-top: 0.5px solid $text-grey-color;
+    font-family: 'Barlow', sans-serif;
+    color: $text-grey-color;
+
+    .footer-container{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .company-info{
+            display: flex;
+        }
+
+        .company-info div:not(:last-child){
+            margin-right: 3rem;
+        }
+
+        .impressum-agb div{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .impressum-agb div p:not(:last-child){
+            margin-right: 2rem;
+        }
+
+        .mobile-social-icons{
+            display: none;
+        }
+
+        .mobile-social-icons span:first-child{
+            margin-right: 1rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 1279px) {
+    
+}
+
+@media screen and (max-width: 766px) {
+
+    // Footer Styles
+    .footer{
+        padding: 2rem;
+
+        .footer-container{
+            display: flex;
+            flex-direction: column;
+
+            .company-info{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+
+            .company-info div:not(:last-child){
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+
+            .mobile-social-icons{
+                display: flex;
+                margin-bottom: 2rem;
+            }
+    
+            .mobile-social-icons span:first-child{
+                margin-right: 1rem;
+            }
+
+            .impressum-agb{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .impressum-agb div{
+                margin-bottom: 1rem;
+                justify-content: center;
+            }
+        }
+    }
+}

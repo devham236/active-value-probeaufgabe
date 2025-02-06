@@ -1,6 +1,7 @@
 import { socialIconsArr } from "../utils/socialIcons";
+import "../styles/stylesheets/hero.scss";
 
-const HeroElement = () => {
+const Hero = () => {
   return (
     <section className="hero-section">
       <div className="hero-container">
@@ -38,4 +39,4 @@ const HeroElement = () => {
   );
 };
 
-export default HeroElement;
+export default Hero;

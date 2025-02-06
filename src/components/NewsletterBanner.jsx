@@ -1,4 +1,4 @@
-import React from "react";
+import "../styles/stylesheets/newsletterbanner.scss";
 
 const NewsletterBanner = () => {
   return (

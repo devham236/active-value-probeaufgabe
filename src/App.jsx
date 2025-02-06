@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import IntroBanner from "./components/IntroBanner";
-import HeroElement from "./components/HeroElement";
+import Hero from "./components/Hero";
 import ServiceJobs from "./components/ServiceJobs";
 import NewsletterBanner from "./components/NewsletterBanner";
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ const App = () => {
     <main>
       <Navbar />
       <IntroBanner />
-      <HeroElement />
+      <Hero />
       <ServiceJobs />
       <NewsletterBanner />
       <ContactForm />
