@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/logos/logo.png";
+import "../styles/stylesheets/navbar.scss";
 
 const Navbar = () => {
   const [sidebarOpened, setSidebarOpened] = useState(false);

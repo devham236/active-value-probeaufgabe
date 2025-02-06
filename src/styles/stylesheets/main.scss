@@ -1,80 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;600;800&family=Poppins:wght@200;400;600;800&display=swap');
-@import "../styles/variables/globalVariables.scss";
+@import "../variables/globalVariables.scss";
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-// Navbar Styles
-.navbar{
-    padding: 1rem;
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-
-    .menu-icon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;    
-    }
-
-    .menu-icon span{
-        font-size: 2rem;
-        opacity: 0.5;
-        transition: 0.3s ease;
-    }
-
-    .menu-icon span:hover{
-        opacity: 1;
-    }
-
-    .navbar-container{
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        .company-logo{
-            width: 100px;
-            height: 50px;
-
-            img{
-                width: 100%;
-                height: 100%;
-            }
-        }
-    }
-
-    .menu-sidebar{
-        position: absolute;
-        z-index: 100;
-        top: 0;
-        right: 0;
-        width: 500px;
-        height: 100vh;
-        background-color: #fff;
-        padding: 4rem;
-        box-shadow: 0 0 15px rgba(0,0,0,0.1);
-
-        .menu-items li{
-            list-style: none;
-            font-size: 2rem;
-        }
-
-        .menu-items li:not(:last-child){
-            margin-bottom: 2rem;
-        }
-
-        .menu-icon{
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            cursor: pointer;
-        }
-    }
 }
 
 // Intro Banner Styles
