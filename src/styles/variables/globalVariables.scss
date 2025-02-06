@@ -7,6 +7,15 @@ $darker-green: #5fbe30;
 
 /*Reusbale Styles*/
 //create reusable styles for the little text above the title, for the title, the text and the button inside each component
-// assets folder in public folder
-// seperate stylesheets for every component
 // less repeated styles
+
+@mixin sectionStyles {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+
+    @media screen and (max-width: 766px) {
+        padding: 2rem;
+    }
+}
+

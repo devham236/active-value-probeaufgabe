@@ -1,10 +1,7 @@
 @import "../variables/globalVariables.scss";
 
-.newsletter-banner{
-    max-width: 1200px;
-    margin: 0 auto;
+.newsletter-banner-section{
     background-image: linear-gradient(to right, $lighter-green, $darker-green);
-    padding: 2rem 4rem;
     text-align: center;
     color: #fff;
 
@@ -51,7 +48,5 @@
 }
 
 @media screen and (max-width: 766px) {
-    .newsletter-banner{
-        padding: 2rem;
-    }
+    
 }

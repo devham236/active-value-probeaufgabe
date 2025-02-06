@@ -1,9 +1,6 @@
 @import "../variables/globalVariables.scss";
 
-.contact-form{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 4rem;
+.contact-form-section{
     text-align: center;
     background-color: $grey-bg-color;
     
@@ -81,9 +78,7 @@
 }
 
 @media screen and (max-width: 766px) {
-    .contact-form{
-        padding: 2rem;
-
+    .contact-form-section{
         .form{
             .form-field{
                 width: 100%;

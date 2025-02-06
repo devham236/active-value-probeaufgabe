@@ -2,7 +2,7 @@ import "../styles/stylesheets/servicejobs.scss";
 
 const ServiceJobs = () => {
   return (
-    <section className="service-jobs">
+    <section className="section service-jobs-section">
       <div className="service container">
         <p className="above-title">Service</p>
         <h2 className="title">

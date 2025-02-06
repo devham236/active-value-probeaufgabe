@@ -2,7 +2,7 @@ import "../styles/stylesheets/contactform.scss";
 
 const ContactForm = () => {
   return (
-    <section className="contact-form">
+    <section className="section contact-form-section">
       <p className="above-title">Kontaktformular</p>
       <h2 className="title">Schreib uns</h2>
       <form className="form">

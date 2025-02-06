@@ -3,7 +3,7 @@ import "../styles/stylesheets/hero.scss";
 
 const Hero = () => {
   return (
-    <section className="hero-section">
+    <section className="section hero-section">
       <div className="hero-container">
         <p className="date">April 2019</p>
         <h2 className="title">Shopware als starker Partner</h2>

@@ -1,15 +1,12 @@
 @import "../variables/globalVariables.scss";
 
-.service-jobs{
-    max-width: 1200px;
+.service-jobs-section{
     background-color: $grey-bg-color;
-    margin: 0 auto;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 4rem;
 
     .container{
         width: 50%;
@@ -60,8 +57,7 @@
 }
 
 @media screen and (max-width: 766px) {
-    .service-jobs{
-        padding: 2rem;
+    .service-jobs-section{
         flex-direction: column;
 
         .container{

@@ -2,10 +2,6 @@
 
 
 .hero-section{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 4rem;
-
     .hero-container{
         .title{
             font-family: 'Poppins', sans-serif;
@@ -53,13 +49,9 @@
 }
 
 @media screen and (max-width: 766px) {
-    .hero-section{
-        padding: 2rem;
-
-        .social-icons{
-            .linkedin{
-                display: none;
-            }
+    .social-icons{
+        .linkedin{
+            display: none;
         }
     }
 }
