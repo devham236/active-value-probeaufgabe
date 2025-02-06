@@ -10,3 +10,7 @@
 .section{
     @include sectionStyles
 }
+
+.info-above-title{
+    @include infoAboveTitleStyles
+}

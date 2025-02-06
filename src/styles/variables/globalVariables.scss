@@ -19,3 +19,11 @@ $darker-green: #5fbe30;
     }
 }
 
+@mixin infoAboveTitleStyles {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: $text-grey-color;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+

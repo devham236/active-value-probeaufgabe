@@ -3,7 +3,7 @@ import "../styles/stylesheets/contactform.scss";
 const ContactForm = () => {
   return (
     <section className="section contact-form-section">
-      <p className="above-title">Kontaktformular</p>
+      <p className="info-above-title">Kontaktformular</p>
       <h2 className="title">Schreib uns</h2>
       <form className="form">
         <div className="form-field">

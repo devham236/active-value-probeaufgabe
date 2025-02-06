@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="section hero-section">
       <div className="hero-container">
-        <p className="date">April 2019</p>
+        <p className="info-above-title">April 2019</p>
         <h2 className="title">Shopware als starker Partner</h2>
         <div className="info-text">
           <p>
