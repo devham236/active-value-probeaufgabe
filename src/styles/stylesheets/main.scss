@@ -18,3 +18,7 @@
 .title{
     @include titleStyles
 }
+
+.info-text{
+    @include infoText
+}
