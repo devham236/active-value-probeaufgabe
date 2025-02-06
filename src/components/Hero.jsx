@@ -5,9 +5,12 @@ const Hero = () => {
   return (
     <section className="section hero-section">
       <div className="hero-container">
-        <p className="info-above-title">April 2019</p>
-        <h2 className="title hr-title">Shopware als starker Partner</h2>
-        <div className="info-text">
+        <header>
+          <p className="info-above-title">April 2019</p>
+          <h2 className="title hr-title">Shopware als starker Partner</h2>
+        </header>
+
+        <article className="info-text">
           <p>
             Wir haben eine Vielzahl von individuellen Webshops für ein diverses
             Kundenfeld entwickelt und umgesetzt - darunter sind namhafte
@@ -20,20 +23,21 @@ const Hero = () => {
             die neusten, innovativsten und sichersten Shop-Lösungen anbieten zu
             können. Um immer auf dem aktuellsten Stand zu sein, treffen wir
             unseren Kooperationspartner auf der jährlichen Fachmesse „Shopware
-            Community Day" und stehen in einem regelmäßigen Austausch. Dadurch
-            sind wir in der Lage kurzfristig auf die neustens Entwicklungen zu
-            reagieren. Dazu gehört unter anderem die Verwendung von Shopware 6 -
-            wodurch wir schon jetzt qualitativ hochwertige
-            Headless-Shop-Projekte (API-first) umsetzen können
+            Community Day&quot; und stehen in einem regelmäßigen Austausch.
+            Dadurch sind wir in der Lage kurzfristig auf die neustens
+            Entwicklungen zu reagieren. Dazu gehört unter anderem die Verwendung
+            von Shopware 6 - wodurch wir schon jetzt qualitativ hochwertige
+            Headless-Shop-Projekte (API-first) umsetzen können.
           </p>
-        </div>
-        <div className="social-icons">
+        </article>
+
+        <figure className="social-icons">
           {socialIconsArr.map((icon) => (
             <span key={icon.id} className={icon.name}>
-              <img src={icon.src} alt="" />
+              <img src={icon.src} alt={icon.name + " logo"} />
             </span>
           ))}
-        </div>
+        </figure>
       </div>
     </section>
   );
