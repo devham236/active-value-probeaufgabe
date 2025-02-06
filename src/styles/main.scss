@@ -308,13 +308,14 @@
             display: flex;
             flex-direction: column;
             align-items: start;
+            width: 300px;
 
             label{
                 margin-bottom: 0.3rem;
             }
 
             input{
-                width: 300px;
+                width: 100%;
                 padding: 0.8rem;
                 border: 1px solid $text-grey-color;
                 color: $text-grey-color;
@@ -386,23 +387,19 @@
 }
 
 
-
-@media screen and (max-width: 1280px){
+@media screen and (min-width: 1280px) {
     
 }
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 767px) and (max-width: 1279px) {
+    
+}
+
+@media screen and (max-width: 766px) {
     // Navbar Styles
     .navbar{
         .menu-sidebar{
-            position: absolute;
-            top: 0;
-            right: 0;
             width: 100%;
-            height: 100vh;
-            background-color: #fff;
-            padding: 4rem;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
 
             .menu-items{
                 text-align: center;
@@ -410,31 +407,60 @@
         }
     }
 
-    // Intro Banner Styles
-    .intro-banner{
-        .intro-banner-container{
-            padding: 0 1rem;
-            height: 300px;
-        }
-    }
-
-    // Hero Element Styles
+    // Hero Section
     .hero-section{
-        width: 100%;
-        padding: 2rem 1.5rem;
+        padding: 2rem;
 
-        .linkedin{
-            display: none;
+        .social-icons{
+            .linkedin{
+                display: none;
+            }
         }
     }
 
     // Service Jobs Styles
     .service-jobs{
+        padding: 2rem;
         flex-direction: column;
+
+        .container{
+            width: 100%;
+        }
+
+        .container:not(:last-child){
+            margin-right: 0;
+            margin-bottom: 3rem;
+        }
+    }
+
+    // Newsletter Banner Styles
+    .newsletter-banner{
+        padding: 2rem;
+    }
+
+    // Contact Form Styles
+    .contact-form{
+        padding: 2rem;
+
+        .form{
+            .form-field{
+                width: 100%;
+
+                input{
+                    width: 100%;
+                }
+            }
+
+            button{
+                width: 100%;
+            }
+        }
     }
 
     // Footer Styles
     .footer{
+        padding: 2rem;
+
         .footer-container{
             display: flex;
             flex-direction: column;
@@ -468,6 +494,7 @@
 
             .impressum-agb div{
                 margin-bottom: 1rem;
+                justify-content: center;
             }
         }
     }
