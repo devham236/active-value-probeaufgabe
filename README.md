@@ -14,6 +14,7 @@ https://github.com/devham236/active-value-probeaufgabe.git
 ```bash
 npm install
 ```
+or
 
 ```bash
 yarn install
