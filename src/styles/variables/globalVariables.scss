@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;600;800&family=Poppins:wght@200;400;600;800&display=swap');
+
 /*Colors*/
 $text-grey-color: rgba(45, 45, 45, 0.5);
 $grey-bg-color: rgb(243, 243, 243);
@@ -6,9 +8,6 @@ $darker-green: #5fbe30;
 
 
 /*Reusbale Styles*/
-//create reusable styles for the little text above the title, for the title, the text and the button inside each component
-// less repeated styles
-
 @mixin sectionStyles {
     max-width: 1200px;
     margin: 0 auto;
