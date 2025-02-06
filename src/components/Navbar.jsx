@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import logo from "../assets/logos/logo.png";
 import "../styles/stylesheets/navbar.scss";
+import useNavbar from "../hooks/useNavbar";
 
 const Navbar = () => {
-  const [sidebarOpened, setSidebarOpened] = useState(false);
+  const { sidebarOpened, setSidebarOpened } = useNavbar();
   return (
     <nav className="navbar">
       <div className="navbar-container">
